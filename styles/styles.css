@@ -1,0 +1,206 @@
+
+
+/****************** page defaults ******************/
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.fixed-width {
+    width: 1000px;
+    margin: 0 auto; /* centers content on the screen */
+}
+
+.hidden {
+    display: none; /* hides elements that are needed for DOM */
+}
+
+.flex {
+    display: flex; 
+}
+
+
+/****************** typography ******************/
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 18px;
+    color: #3aa6b9;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+footer {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none; /* Remove the default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+header a {
+    color: black;
+}
+
+h2, p {
+    margin-bottom: 15px;
+}
+
+
+/****************** site-wide styling ******************/
+header, footer {
+    background-color: gray;
+    color: beige;
+}
+
+header {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+header a {
+    font-size: 18px;
+}
+
+header img {
+    line-height: 150px;
+    height: 50px;
+    width: auto;
+    padding: 26px 20px;
+}
+
+header h1  {
+    line-height: 100px;
+    margin: 0px 300px 0px 0px;
+}
+
+li {
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.twoup {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+/****************** home page styling ******************/
+.italics {
+    font-style: italic;
+}
+
+article { 
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 15px;
+    max-width: 100%;
+}
+
+.twoup article {
+    width: 75%;
+    height: auto;
+    align-content: center;
+}
+
+.twoup img {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+/****************** Contact page styling ******************/
+.centered {
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.left {
+    width: 25%;
+    height: auto;
+}
+
+.right {
+    width: 75%;
+    margin: 0 5%;
+    height: auto;
+}
+
+/****************** form styling ******************/
+form div {
+    padding-bottom: 20px;
+}
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+}
+
+button {
+    height: 21px;
+    width: 30%;
+    margin: 30px 0 0 calc((100% - 30%));
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+
+
